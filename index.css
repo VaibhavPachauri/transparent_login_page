@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    /* border: 12px solid black; */
+    color: black;
+    position: absolute;
+    top: 10%;
+    left:15%;
+}
+.container h1{
+    font-family: 'Heebo', sans-serif;
+    width: 50%;
+    font-size: 38px;
+    border-bottom: 5px solid whitesmoke;
+    margin-bottom: 15px;
+    padding: 13px 0;
+    display: inline-block;
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid whitesmoke;
+    margin: 22px 0px;
+}
+.box input{
+    font-family: 'Dosis', sans-serif;
+    background: none;
+    width: 75%;
+    border:none;
+    outline: none;
+    color: whitesmoke;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.box i{
+    width: 25px;
+    text-align: center;
+    /* padding: 0px 10px; */
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    border: 2px solid whitesmoke;
+    color: black;
+    font-weight: bold;
+}
+.btn:hover{
+    opacity: 0.5;
+    color: purple;
+    background-color: whitesmoke;
+}
